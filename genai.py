@@ -3,7 +3,7 @@ import google.generativeai
 #Module for Google Gemini
 
 #Can be changed
-GEMINI_TOKEN: str = 'AIzaSyDJgAQw4HnfAtEyipO78cxDxJfU0DGyx9M'
+GEMINI_TOKEN: str = 'YOUR_GOOGLE_GEMINI_TOKEN'
 
 google.generativeai.configure(api_key=GEMINI_TOKEN)
 
