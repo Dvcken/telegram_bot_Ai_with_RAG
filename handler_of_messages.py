@@ -43,7 +43,7 @@ class Handler_of_messages:
     token_encoder = tiktoken.encoding_for_model('text-davinci-003')
 
     # Example corpus
-    #str there are for example better to change them for text files with proper information
+    # Strings are for example better to change them for text files with proper information
     corpus = [
         "What is artificial intelligence?",
         "How does machine learning work?",
@@ -114,6 +114,3 @@ class Handler_of_messages:
             case _:
                 response = 'Oops, i tried to generate response from non-existing AI model...'
         await update.message.reply_text(response)
-
-
-
