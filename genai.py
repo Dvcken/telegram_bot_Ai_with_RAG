@@ -1,9 +1,12 @@
 import google.generativeai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 #Module for Google Gemini
 
-#Can be changed
-GEMINI_TOKEN: str = 'YOUR_GOOGLE_GEMINI_TOKEN'
+GEMINI_TOKEN: str = os.getenv('GEMINI_TOKEN')
 
 google.generativeai.configure(api_key=GEMINI_TOKEN)
 

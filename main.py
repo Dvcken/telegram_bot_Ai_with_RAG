@@ -1,10 +1,13 @@
 from telegram import Update
 from telegram.ext import *
 from handler_of_messages import *
+import os
+from dotenv import load_dotenv
 
-# Can be changed
-TELEGRAM_TOKEN: str = 'YOUR_TELEGRAM_TOKEN'
+load_dotenv()
 
+TELEGRAM_TOKEN: str = os.getenv('TELEGRAM_TOKEN')
+print(TELEGRAM_TOKEN)
 
 def main() -> None:
     #Bot initialization

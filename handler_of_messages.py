@@ -56,6 +56,8 @@ class Handler_of_messages:
         # Add more documents...
     ]
 
+
+
     # Encode the corpus
     corpus_embeddings = model.encode(corpus)
 
