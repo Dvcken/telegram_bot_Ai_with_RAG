@@ -17,7 +17,7 @@ def main() -> None:
     app.add_handler(CommandHandler('start', HandlerOfMessages.start_command, has_args=False))
     app.add_handler(CommandHandler('help', HandlerOfMessages.help_command, has_args=False))
     app.add_handler(CommandHandler('mode', HandlerOfMessages.mode_command))
-    app.add_handler(MessageHandler(filters.TEXT, HandlerOfMessages.message_response))
+    app.add_handler(MessageHandler(filters.TEXT, HandlerOfMessages.generate_message_response))
 
     #Bot starts to see messages
     print('Start polling...')

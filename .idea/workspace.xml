@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="Changed token management and added .env-template.py">
+    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="Temp change for corpus&#10;added classes for AI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/genai.py" beforeDir="false" afterPath="$PROJECT_DIR$/genai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler_of_messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlerofmessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlerofmessages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730197576306</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Temp change for corpus&#10;added classes for AI">
+      <option name="closed" value="true" />
+      <created>1730292460821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730292460821</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Temp change for corpus&#10;added classes for AI">
+      <option name="closed" value="true" />
+      <created>1730292477631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730292477631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +198,7 @@
     <MESSAGE value="Misc changes" />
     <MESSAGE value="Added requirements.txt" />
     <MESSAGE value="Changed token management and added .env-template.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed token management and added .env-template.py" />
+    <MESSAGE value="Temp change for corpus&#10;added classes for AI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Temp change for corpus&#10;added classes for AI" />
   </component>
 </project>

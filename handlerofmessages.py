@@ -6,8 +6,8 @@ from sentence_transformers import SentenceTransformer
 import tiktoken
 from sklearn.neighbors import NearestNeighbors
 from dotenv import load_dotenv
-
-
+from testLLM import TestAI
+from genai import GenAI
 #heart of this bot, this file process all messages
 load_dotenv()
 
@@ -92,7 +92,7 @@ class HandlerOfMessages:
         return retrieved_docs
 
     # Function to generate a response using RAG with token management
-    def generate_rag_response(query, max_tokens=max_tokens) -> str:
+    def generate_rag_prompt(query, max_tokens=max_tokens) -> str:
         # Step 1: Retrieve relevant documents within the token limit
         retrieved_docs = HandlerOfMessages.retrieve_documents(query, max_tokens=max_tokens)
         # Step 2: Augment the prompt with retrieved documents
@@ -105,24 +105,27 @@ class HandlerOfMessages:
         return augmented_prompt
 
 
-    async def message_response(update: Update, context):
+    async def generate_message_response(update: Update, context):
         user_message = update.message.text
-        augmented_prompt: str = HandlerOfMessages.generate_rag_response(user_message)
+        augmented_prompt: str = HandlerOfMessages.generate_rag_prompt(user_message)
         match HandlerOfMessages.mode:
             case 'gemini':
-                from genai import GenAI
-                ai = GenAI(augmented_prompt)
-                response = ai.generate_response(augmented_prompt)
+
+                ai = GenAI()
+                ai.prompt = augmented_prompt
+                response = ai.generate_response()
             case 'test':
-                from testLLM import TestAI
-                ai = TestAI(augmented_prompt)
-                response = ai.generate_response(augmented_prompt)
+
+                ai = TestAI()
+                ai.prompt = augmented_prompt
+                response = ai.generate_response()
             case _:
                 response = "This response can't be seen"
 
         await update.message.reply_text(response)
 
 
+"""
 class LanguageModels:
 
     def __init__(self, prompt: str):
@@ -131,4 +134,4 @@ class LanguageModels:
 
     def generate_response(self, prompt: str) -> str:
         pass
-
+"""
