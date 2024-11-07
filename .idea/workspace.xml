@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="Temp change for corpus&#10;added classes for AI">
+    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="changed ai classes to singleton type classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genai.py" beforeDir="false" afterPath="$PROJECT_DIR$/genai.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlerofmessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlerofmessages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     "Python.еуые.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Ducken/PycharmProjects/telegram_bot_Ai_with_RAG"
+    "last_opened_file_path": "C:/Users/Ducken/PycharmProjects/pythonProject"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -179,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730292477631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed ai classes to singleton type classes">
+      <option name="closed" value="true" />
+      <created>1730384870652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730384870652</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +205,7 @@
     <MESSAGE value="Added requirements.txt" />
     <MESSAGE value="Changed token management and added .env-template.py" />
     <MESSAGE value="Temp change for corpus&#10;added classes for AI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temp change for corpus&#10;added classes for AI" />
+    <MESSAGE value="changed ai classes to singleton type classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed ai classes to singleton type classes" />
   </component>
 </project>
