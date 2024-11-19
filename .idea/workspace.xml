@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="changed ai classes to singleton type classes">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env-template.py" beforeDir="false" afterPath="$PROJECT_DIR$/.env-template.py" afterDir="false" />
+    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="added functionality: now you can append database via /database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genai.py" beforeDir="false" afterPath="$PROJECT_DIR$/genai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlerofmessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlerofmessages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
@@ -41,6 +39,9 @@
     &quot;accountId&quot;: &quot;9401398d-d958-4280-ba89-09e972ef00b9&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -199,7 +200,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731006118342</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add Dockerfile and docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1731587915277</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731587915277</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added functionality: now you can append database via /database">
+      <option name="closed" value="true" />
+      <created>1731587995854</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731587995854</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +237,8 @@
     <MESSAGE value="Changed token management and added .env-template.py" />
     <MESSAGE value="Temp change for corpus&#10;added classes for AI" />
     <MESSAGE value="changed ai classes to singleton type classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed ai classes to singleton type classes" />
+    <MESSAGE value="add Dockerfile and docker-compose.yml" />
+    <MESSAGE value="added functionality: now you can append database via /database" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality: now you can append database via /database" />
   </component>
 </project>

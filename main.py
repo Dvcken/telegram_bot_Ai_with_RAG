@@ -1,5 +1,3 @@
-from telegram import Update
-from telegram.ext import *
 from handlerofmessages import *
 import os
 from dotenv import load_dotenv
