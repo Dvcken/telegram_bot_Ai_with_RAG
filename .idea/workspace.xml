@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="added functionality: now you can append database via /database">
+    <list default="true" id="ecceebcc-7537-484e-8019-c499990f6885" name="Changes" comment="divided code in multiple files to increase readability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlerofmessages.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlerofmessages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
@@ -216,7 +214,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731587995854</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changed from postgresql to qdrant database to optimise k-NN">
+      <option name="closed" value="true" />
+      <created>1731974462029</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731974462029</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated to be in par with changes to qdrant">
+      <option name="closed" value="true" />
+      <created>1731975146936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731975146936</updated>
+    </task>
+    <task id="LOCAL-00013" summary="divided code in multiple files to increase readability">
+      <option name="closed" value="true" />
+      <created>1732373261436</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732373261436</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +261,9 @@
     <MESSAGE value="changed ai classes to singleton type classes" />
     <MESSAGE value="add Dockerfile and docker-compose.yml" />
     <MESSAGE value="added functionality: now you can append database via /database" />
-    <option name="LAST_COMMIT_MESSAGE" value="added functionality: now you can append database via /database" />
+    <MESSAGE value="changed from postgresql to qdrant database to optimise k-NN" />
+    <MESSAGE value="updated to be in par with changes to qdrant" />
+    <MESSAGE value="divided code in multiple files to increase readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="divided code in multiple files to increase readability" />
   </component>
 </project>
